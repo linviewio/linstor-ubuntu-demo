@@ -29,9 +29,10 @@ These scripts perform a basic LINSTOR installation with the following components
 
 ## Additional LINSTOR Install Information
 
-Install Documentation: https://www.linbit.com/drbd-user-guide/linstor-guide-1_0-en/#s-installtion
-Storage Pool Creation: https://www.linbit.com/drbd-user-guide/linstor-guide-1_0-en/#s-storage_pools
-Resource Creation: 
+- Install Documentation: https://www.linbit.com/drbd-user-guide/linstor-guide-1_0-en/#s-installtion
+- Storage Pool Creation: https://www.linbit.com/drbd-user-guide/linstor-guide-1_0-en/#s-storage_pools
+- Resource Group Creation: https://www.linbit.com/drbd-user-guide/linstor-guide-1_0-en/#s-linstor-resource-groups
+- Resource Creation: https://www.linbit.com/drbd-user-guide/linstor-guide-1_0-en/#s-linstor-new-volume
 
 ## Installation Instructions
 
