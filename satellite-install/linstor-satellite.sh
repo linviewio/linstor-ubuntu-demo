@@ -9,7 +9,7 @@ echo
 echo -e ${GREEN}Please provide the username, ssh port, ssh key path, and new satellite node IP.${NOCOLOR}
 echo
 
-read -p 'Admin Username: ' uservar
+read -p 'Host Admin Username: ' uservar
 read -p 'SSH Private Key Path: ' keyvar
 read -p 'SSH Port: ' portvar
 read -p 'New Satellite IP: ' newsatip
@@ -39,7 +39,7 @@ ssh -p $portvar -o StrictHostKeyChecking=no -i $keyvar $uservar@$newsatip << EOF
   sudo apt-get update
   sudo DEBIAN_FRONTEND=noninteractive apt install drbd-utils drbd-dkms lvm2 -y 
   sudo dprobe drbd
-  sudo drbd > /etc/modules-load.d/drbd.conf
+  sudo echo drbd > /etc/modules-load.d/drbd.conf
   sudo DEBIAN_FRONTEND=noninteractive apt install linstor-satellite linstor-client -y
   sudo systemctl enable --now linstor-satellite
   sudo systemctl start linstor-satellite

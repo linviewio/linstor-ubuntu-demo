@@ -14,7 +14,7 @@ echo
 echo -e ${GREEN}Please provide the username, ssh port, ssh key path, and master and satellite node IPs.${NOCOLOR}
 echo
 
-read -p 'Admin username: ' uservar
+read -p 'Host Admin username: ' uservar
 read -p 'SSH Private Key Path: ' keyvar
 read -p 'SSH Port: ' portvar
 read -p 'Controller/Satellite IP: ' contip
