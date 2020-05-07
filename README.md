@@ -11,7 +11,7 @@ These scripts perform a basic LINSTOR installation with the following components
 * LVM2
 * DRBD
 * LINSTOR Controller (1 node)
-* LINSTOR Satellite (3 nodes initially. More can be added with the satellite instll script.)
+* LINSTOR Satellite (3 nodes initially. More can be added with the satellite install script.)
 
 ## Requirements
 

@@ -87,11 +87,10 @@ ssh -p $portvar -o StrictHostKeyChecking=no -i $keyvar $uservar@$sat2ip << EOF
   apt-get update
   DEBIAN_FRONTEND=noninteractive apt install drbd-utils drbd-dkms lvm2 -y 
   modprobe drbd
-  drbd > /etc/modules-load.d/drbd.conf
+  echo drbd > /etc/modules-load.d/drbd.conf
   DEBIAN_FRONTEND=noninteractive apt install linstor-satellite linstor-client -y
   systemctl enable --now linstor-satellite
   systemctl start linstor-satellite
-  hostname
 EOF
 
 echo
@@ -105,11 +104,10 @@ ssh -p $portvar -o StrictHostKeyChecking=no -i $keyvar $uservar@$sat3ip << EOF
   apt-get update
   DEBIAN_FRONTEND=noninteractive apt install drbd-utils drbd-dkms lvm2 -y 
   modprobe drbd
-  drbd > /etc/modules-load.d/drbd.conf
+  echo drbd > /etc/modules-load.d/drbd.conf
   DEBIAN_FRONTEND=noninteractive apt install linstor-satellite linstor-client -y
   systemctl enable --now linstor-satellite
   systemctl start linstor-satellite
-  hostname
 EOF
 
 echo
