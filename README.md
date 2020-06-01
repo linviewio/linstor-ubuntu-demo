@@ -1,5 +1,7 @@
 # LINSTOR Basic Install on Ubuntu 16.04 LTS+
 
+![LINSTOR](./img/LINSTOR_Logo_v4.png)
+
 **WARNING** This is a demo installation script and does not deploy an enterprise grade solution. Please only use this for evaluation purposes.
 
 ## About LINSTOR
@@ -63,11 +65,11 @@ These scripts perform a basic LINSTOR installation with the following components
 * Run `./remove-linstor.sh`
 * Reboot when done
 
-## Using Linstor
+## Using LINSTOR
 
 Please read the user-guide provided at [docs.linbit.com](https://docs.linbit.com).
 
-## Visualizing LINSTOR Clusters using a GUI:
+## Visualizing and Managing LINSTOR Clusters using the LINVIEW GUI:
 
 LINVIEW OSS: https://github.com/AlphaBravoCompany/linview-oss
 
@@ -78,5 +80,4 @@ LINVIEW Enterprise: Contact LINVIEW at https://linview.io
 Supported enterprise versions of LINSTOR, please contact LINBIT: https://www.linbit.com
 
 LINVIEW Support, please contact LINVIEW: https://linview.io
-
 DevSecOps Acceleration for both public and private sector: https://alphabravo.io
