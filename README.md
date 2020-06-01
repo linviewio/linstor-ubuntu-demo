@@ -18,7 +18,7 @@ These scripts perform a basic LINSTOR installation with the following components
 * Ubuntu 16.04/18.04/20.04 LTS (tested)
 * 3 nodes (more can be added using the satellite installer)
 * Ports 3366,3367,3370,3376,3377 open between nodes for LINSTOR communications
-* 
+* Ensure SSH is open from controller to satellite nodes for install
 * SSH with key between controller and satellite nodes
 * The following information:
   * admin user with no password `sudo` or root user
