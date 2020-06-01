@@ -1,4 +1,4 @@
-# LINSTOR Basic Install on Ubuntu
+# LINSTOR Basic Install on Ubuntu 16.04 LTS+
 
 **WARNING** This is a demo installation script and does not deploy an enterprise grade solution. Please only use this for evaluation purposes.
 
@@ -15,7 +15,7 @@ These scripts perform a basic LINSTOR installation with the following components
 
 ## Requirements
 
-* Ubuntu 16.04 or 18.04 LTS (tested)
+* Ubuntu 16.04/18.04/20.04 LTS (tested)
 * 3 nodes (more can be added using the satellite installer)
 * Ports 3366,3367,3370,3376,3377 open between nodes for LINSTOR communications
 * 

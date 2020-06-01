@@ -78,7 +78,7 @@ then
 fi
 
 echo
-echo -e ${GREEN}Install LINSTOR Satellite and Controller on Satellite2${NOCOLOR}
+echo -e ${GREEN}Install LINSTOR Satellite on Satellite2${NOCOLOR}
 echo
 sleep 3s
 ssh -p $portvar -o StrictHostKeyChecking=no -i $keyvar $uservar@$sat2ip << EOF
@@ -94,7 +94,7 @@ ssh -p $portvar -o StrictHostKeyChecking=no -i $keyvar $uservar@$sat2ip << EOF
 EOF
 
 echo
-echo -e ${GREEN}Install LINSTOR Satellite and Controller on Satellite3${NOCOLOR}
+echo -e ${GREEN}Install LINSTOR Satellite on Satellite3${NOCOLOR}
 echo
 sleep 3s
 
